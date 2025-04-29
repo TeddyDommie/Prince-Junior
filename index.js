@@ -56,7 +56,7 @@ async function startMzazi() {
   const client = mzaziConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["MZAZI-XMD", "Safari", "5.1.7"],
+    browser: ["Prince-Junior", "Safari", "5.1.7"],
     auth: state,
     syncFullHistory: true,
   });
