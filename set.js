@@ -16,15 +16,15 @@ const gptdm = process.env.GPT_INBOX || 'FALSE';
 const mode = process.env.MODE || 'PUBLIC';
 const antidel = process.env.ANTIDELETE || 'TRUE';
 
-const botname = process.env.BOTNAME || '𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗';
+const botname = process.env.BOTNAME || 'PRINCE-JUNIOR';
 const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'𝗕𝗢𝗧';
-const packname = process.env.STICKER_PACKNAME || '𝗠𝗭𝗔𝗭𝗜';
+const packname = process.env.STICKER_PACKNAME || 'PRINCE';
 const dev = process.env.DEV || '254741388986';
 const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
-const DevMzazi = dev.split(",");
+const DevJunior = dev.split(",");
 const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
 const bad = process.env.BAD_WORD || 'fuck';
 const autoread = process.env.AUTOREAD || 'FALSE';
@@ -48,7 +48,7 @@ module.exports = {
   author,
   packname,
   dev,
-  DevMzazi,
+  DevJunior,
   badwordkick,
   anticall,
   bad,
