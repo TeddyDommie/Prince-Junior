@@ -1,5 +1,5 @@
 { 
-   "name": "MZAZI-XMD", 
+   "name": "PRINCE-JUNIOR", 
    "version": "2.0.0", 
    "description": "WhatsApp Multi Device Bot", 
    "main": "index.js", 
@@ -91,10 +91,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/TeddyDommie/MZAZI-XMD.git" 
+     "url": "git+https://github.com/Nyanunga/Prince-Junior.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/TeddyDommie/MZAZI-XMD/issues" 
+     "url": "https://github.com/Nyanunga/Prince-Junior/issues" 
    }, 
-   "homepage": "https://github.com/TeddyDommie/MZAZI-XMD#readme" 
+   "homepage": "https://github.com/Nyanunga/Prince-Junior#readme" 
    }
