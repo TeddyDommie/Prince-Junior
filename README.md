@@ -55,7 +55,7 @@ Linking/Pairing:
 ###  𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨:
 
 
- ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Nyanunga/Prince-Junior-&template=https://github.com/Nyanunga/Prince-Junior-.git)***
+ ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Nyanuga/Prince-Junior-&template=https://github.com/Nyanuga/Prince-Junior-.git)***
  
 
     
