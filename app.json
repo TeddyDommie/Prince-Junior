@@ -1,10 +1,10 @@
-{
-  "name": "MZAZI-XMD",
+,{
+  "name": "PRINCE-JUNIOR",
   "description": "I don't know what I'm doing",
   "keywords": [
     "bot",
     "whatsapp",
-    "mzazi",
+    "junior",
     "whatsapp-stickers",
     "anime",
     "whatsapp-bot",
@@ -14,13 +14,13 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/TeddyDommie/MZAZI-XMD#readme",
-  "repository": "https://github.com/TeddyDommie/MZAZI-XMD.git",
+  "website": "https://github.com/Nyanuga/Prince-Junior-#readme",
+  "repository": "https://github.com/Nyanuga/Prince-Junior.git",
   "logo": "https://telegra.ph/file/eebe191a0520a79979b34.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of MZAZI-XMD Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of PRINCE-JUNIOR Ex: . , / , # , & etc. Put any symbol or leave it blank",
       "required": false
 
     },
