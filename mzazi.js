@@ -223,19 +223,6 @@ function loadChatData(remoteJid, messageId) {
     
 
 
-const Grace = mek.key.remoteJid;
-if (wapresence === 'online') { 
-             client.sendPresenceUpdate('available', Grace);
-	
-} else if (wapresence === 'typing') { 
-             client.sendPresenceUpdate('composing', Grace);
-	
-      }	else if (wapresence === 'recording') { 
-             client.sendPresenceUpdate('recording', Grace);
-             
-    } else {
-             client.sendPresenceUpdate('unavailable', Grace);
-    }
     
     if (cmd) {
       switch (command) {
