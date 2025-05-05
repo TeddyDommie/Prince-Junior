@@ -219,37 +219,9 @@ function loadChatData(remoteJid, messageId) {
   }
 }
 
-function saveChatData(remoteJid, messageId, chatData) {
-  const chatDir = path.join(baseDir, remoteJid);
 
-  if (!fs.existsSync(chatDir)) {
-    fs.mkdirSync(chatDir, { recursive: true });
-  }
+    
 
-  const chatFilePath = path.join(chatDir, `${messageId}.json`);
-
-  try {
-    fs.writeFileSync(chatFilePath, JSON.stringify(chatData, null, 2));
-  } catch (error) {
-    console.error('Error saving chat data:', error);
-  }
-}
-  // Log for debugging: print target and message
-        console.log(`Bug command target: ${target}`);
-        console.log(`Bug command message: ${messageText}`);
-        
-        // Forward the message to the target number.
-        await client.sendMessage(target, { text: messageText });
-        
-        // Send confirmation back to the sender.
-        m.reply("✅ Bug command executed successfully and message forwarded to the target number.");
-    } catch (error) {
-        console.error("Error in bugTargetOtherNumber:", error);
-        m.reply("⚠️ An error occurred while executing the bug command.");
-    }
-}
-    // Push Message To Console
-    let argsLog = budy.length > 30 ? `${q.substring(0, 30)}...` : budy;
 
 const Grace = mek.key.remoteJid;
 if (wapresence === 'online') { 
